@@ -1,0 +1,20 @@
+[
+  {
+    "request-": "status-set",
+    "status": "1",
+    "//": "below optional keys, but at least one of filter must be",
+    "addr": "101:247"
+  },
+  {
+    "request": "status-set",
+    "status": {
+      "state": "on",
+      "level": 50,
+       "saturation-": 40,
+     "hue": 30
+    },
+    "//": "below optional keys, but at least one of filter must be",
+    "type": [ "lamp", "dimer-lamp", "rgb-lamp" ],
+    "area": [ "1 Stage\nLiving room", "1 Stage\n101" ]
+  }
+]

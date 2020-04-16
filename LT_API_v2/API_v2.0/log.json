@@ -1,0 +1,21 @@
+[
+  {
+    "request": "setup",
+    "appId": "def exciter"
+  },
+  {
+    "request": "log",
+    "message": "test log"
+  },
+  {
+    "request": "log",
+    "exciter": "",
+    "message": "test log"
+ },
+ {
+    "request": "log",
+    "exciter": "test",
+    "addr": "101:1",    
+    "message": "test log"
+  }
+]

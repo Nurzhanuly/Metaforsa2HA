@@ -1,0 +1,7 @@
+{
+  "request": "status-set",
+  "addr": "2048:248",
+  "status": {
+    "identifier": "signal-power"
+  }
+}

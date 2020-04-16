@@ -1,0 +1,11 @@
+{
+  "request": "status-set",
+  "addr": "101:30",
+  "status": {
+    "url": "http://u13A0CFBC@192.168.1.39:8200/MediaItems/37.mp3",
+    "volume": "+10",
+    "position": "1:30",
+    "muted": "reverse",
+    "soft-start": "5"
+  }
+}

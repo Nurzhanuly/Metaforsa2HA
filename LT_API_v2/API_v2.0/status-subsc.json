@@ -1,0 +1,13 @@
+[
+  {
+    "request": "status-subscribe",
+    "type": [ "lamp", "dimer-lamp" ], // optional
+    "addr": "101:247" // optional, zero addr filed means all
+  },
+  {
+    "request-": "status-subscribe",
+    "addr": "101:250", // optional, if missed apply to all
+    "status": "detailed",
+    "reset": true // optional, if missed subscription will be added to existing
+  }
+]

@@ -1,0 +1,11 @@
+[
+{
+    "request": "subscribe-messages",
+    "push-msg": {
+      "type": [ "notify", "warning", "error", "intercom" ]
+    }
+  },
+ {
+    "request": "unsubscribe-messages"
+  }
+]

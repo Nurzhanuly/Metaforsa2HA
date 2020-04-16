@@ -1,0 +1,18 @@
+[
+  {
+    "request": "status-get",
+    "id": "id1", // optional, will be returned in response
+    "type": [ "gate", "valve", "valve-heating", "conditioner", "virtual" ], // optional
+    "addr-": [ "100:250", "101:,:98" ], // optional, zero addr filed means all
+    "status": "detailed" // optional, if missed, hex is used
+  },
+  {
+    "request-": "status-get",
+    "addr": [ "101:30", "101:221" ]
+  },
+  {
+    "request-": "status-get", // get all statuses
+    "addr": [ "101:30", "101:31" ], // optional, zero addr filed means all
+    "status": "detailed" // optional, if missed, hex is used
+  }
+]

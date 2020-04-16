@@ -1,0 +1,1 @@
+[{"id":"eaaeb396.738fc","type":"inject","z":"b4690c23.44c0e","name":"Siren Sound","topic":"","payload":"[{\"request\":\"status-set\",\"status\":\"1\",\"addr\":\"249:10\"}]","payloadType":"json","repeat":"","crontab":"","once":false,"onceDelay":0.1,"x":170,"y":380,"wires":[["1b16056.4f96afb"]]}]

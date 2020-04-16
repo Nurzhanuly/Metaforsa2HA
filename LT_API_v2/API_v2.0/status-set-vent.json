@@ -1,0 +1,10 @@
+{
+  "request": "status-set",
+  "addr": "101:234",
+  "status": {
+    "target": 21,
+    "fun": "low",
+    "state-": "on"
+
+  }
+}

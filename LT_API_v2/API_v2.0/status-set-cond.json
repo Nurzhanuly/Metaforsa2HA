@@ -1,0 +1,21 @@
+[
+  {
+    "request": "status-set",
+    "addr": "100:22",
+    "status": {
+      "state": "on",
+      "mode": "cooling",
+      "fun": "middle",
+      "target": 21,
+      "vane-hor": 1,
+      "vane-ver": 2
+    }
+  },
+  {
+    "request-": "status-set",
+    "addr": "100:22",
+    "status": {
+      "target": "-1"
+    }
+  }
+]

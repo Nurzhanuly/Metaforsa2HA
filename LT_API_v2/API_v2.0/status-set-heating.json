@@ -1,0 +1,18 @@
+[
+  {
+    "request": "status-set",
+    "addr": "101:21",
+    "status": {
+      "automation-": "previous",
+      "target": 17,
+      "state-": "on"
+    }
+  },
+  {
+    "request": "status-set",
+    "addr": "101:21",
+    "status": {
+      "target": "+1"
+    }
+  }
+]

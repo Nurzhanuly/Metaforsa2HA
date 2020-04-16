@@ -1,0 +1,6 @@
+{
+  "request": "get-devices",
+  "id": "id1", // optional, will be returned in response
+  "type": [ "remote-control", "valve-heating" ], // optional
+  "status": "detailed" // optional, [|hex|detailed] if missed, no status is needed
+}
